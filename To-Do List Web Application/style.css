@@ -1,0 +1,25 @@
+body {
+    background-color: #f4f6f9;
+}
+
+/* Completed task styling */
+.task-completed .task-text {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+/* Make list items look neat */
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.375rem !important;
+    margin-bottom: 0.5rem;
+    border: 1px solid #dee2e6;
+}
+
+/* Checkbox margin */
+.form-check-input {
+    margin-right: 15px;
+    cursor: pointer;
+}
